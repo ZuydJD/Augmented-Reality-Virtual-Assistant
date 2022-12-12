@@ -19,6 +19,8 @@ public class SequenceTree : ScriptableObject
         return treeState;
     }
 
+#if UNITY_EDITOR
+
     public Node CreateNode(System.Type type)
     {
         Node node = ScriptableObject.CreateInstance(type) as Node;
@@ -38,6 +40,11 @@ public class SequenceTree : ScriptableObject
         AssetDatabase.SaveAssets();
         return node;
     }
+
+#endif
+
+#if UNITY_EDITOR
+
     public void DeleteNode(Node node)
     {
         Undo.RecordObject(this, "Sequence Tree (DeleteNode)");
@@ -47,6 +54,9 @@ public class SequenceTree : ScriptableObject
         Undo.DestroyObjectImmediate(node);
         AssetDatabase.SaveAssets();
     }
+
+#endif
+#if UNITY_EDITOR
 
     public void AddChild(Node parent, Node child)
     {
@@ -74,6 +84,8 @@ public class SequenceTree : ScriptableObject
             EditorUtility.SetDirty(composite);
         }
     }
+#endif
+#if UNITY_EDITOR
 
     public void RemoveChild(Node parent, Node child)
     {
@@ -101,7 +113,7 @@ public class SequenceTree : ScriptableObject
             EditorUtility.SetDirty(composite);
         }
     }
-
+#endif
     public List<Node> GetChildren(Node parent)
     {
         List<Node> children = new List<Node>();

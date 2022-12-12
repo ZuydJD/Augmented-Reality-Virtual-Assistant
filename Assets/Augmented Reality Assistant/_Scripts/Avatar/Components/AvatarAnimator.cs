@@ -8,7 +8,7 @@ public class AvatarAnimator : MonoBehaviour
     [SerializeField] Animator anim;
 
 
-    private void Awake()
+    private void Start()
     {
         if(anim == null) { anim.GetComponent<Animator>(); }
     }
