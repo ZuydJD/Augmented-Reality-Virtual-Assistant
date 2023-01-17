@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8845865168475403605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f9529a378e0ba43a825bc288a07041, type: 3}
+  m_Name: GroupNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7b00272f575a41741be070b38a6e6691
+  position: {x: 190, y: 75.81333}
+  description: 
+  children: []
+--- !u!114 &-8540654030790470450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fd9743c52abed45a4d5175e017f3a2, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: aa79cc0164361034288be32758ef2e52
+  position: {x: 368, y: 294.47998}
+  description: 
+  children: []
+--- !u!114 &-8224890078300071113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cdcb41f872dee41992828bcce10c86, type: 3}
+  m_Name: DebugNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4ba32b739f8170a4797db71a4cdfa604
+  position: {x: 83, y: 255.33333}
+  description: 
+  message: 
+--- !u!114 &-8091151698725613178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d380a6579e1f86b4cb8f4348cdcaf890, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 54fb9a4534b703643964b2dfb468c5f4
+  position: {x: 241.76001, y: -72}
+  description: 
+  duration: 1
+--- !u!114 &-7532074861157237797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b15aa3af2331834db148fce29ae7c70, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8b7824e380c5354459d39da385afcd9c
+  position: {x: 620.2, y: 169.99997}
+  description: 
+  child: {fileID: 0}
+  repeatState: 0
+--- !u!114 &-5780098662857988291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96aa8363e1fef04479f1f2e8b2ca367c, type: 3}
+  m_Name: AvatarCreateNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 783806f10254bb9429c3630c87d97f72
+  position: {x: 0, y: 0}
+  description: 
+  avatarSettings: {fileID: 0}
+--- !u!114 &-4483636515033206074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934ad2df8a321d641b666fa3af3af234, type: 3}
+  m_Name: PlaySequenceTree
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 31e25888e3b4b1e4db07c9db88c123f5
+  position: {x: 135, y: 363.12}
+  description: 
+  treeToPlay: {fileID: 0}
+--- !u!114 &-2972070768368278743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc16b42e9c8e2ee4099da70998adf723, type: 3}
+  m_Name: AvatarSpeakNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fdc23ad08604ffc4abc2e5be8393407a
+  position: {x: 24.080017, y: 99.33333}
+  description: 
+  avatarName: 
+  audioClip: {fileID: 0}
+  waitToFinish: 1
+--- !u!114 &-2823901173469536566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3c1bbf04445824a80bbc0462982710, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 00b203a2c8d329749a3b940b47302ba4
+  position: {x: 368, y: 170.56}
+  description: 
+  child: {fileID: 0}
+--- !u!114 &-2674708598167529207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ee70ae65b3cf046ab0e66aa820d7d5, type: 3}
+  m_Name: InProgramStateNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e0ab494525cc33a4faf1604113e8f463
+  position: {x: 518, y: -10}
+  description: 
+  child: {fileID: 0}
+  stateToCheck: 0
+  boolean: 0
+  positive: 0
+--- !u!114 &-1120144746344246522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835c59687e678b149bf9fd788a5c8c9d, type: 3}
+  m_Name: ProgramSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5320e247a27159d4d889f3274e2928ea
+  position: {x: 24, y: -205.41335}
+  description: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0d71b8b03365b43a6c9662366c6bde, type: 3}
+  m_Name: Sequence_Tree_Voorbeeld
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -2823901173469536566}
+  treeState: 0
+  nodes:
+  - {fileID: -2823901173469536566}
+  - {fileID: -8540654030790470450}
+  - {fileID: -8845865168475403605}
+  - {fileID: -7532074861157237797}
+  - {fileID: -2674708598167529207}
+  - {fileID: -5780098662857988291}
+  - {fileID: -8224890078300071113}
+  - {fileID: -8091151698725613178}
+  - {fileID: -1120144746344246522}
+  - {fileID: 633118089017065529}
+  - {fileID: 1311615878823354145}
+  - {fileID: -2972070768368278743}
+  - {fileID: -4483636515033206074}
+  - {fileID: 6048501086501391899}
+  - {fileID: 8216400403068858415}
+  - {fileID: 6417694904888478337}
+  - {fileID: 338393343162250048}
+  - {fileID: 7047319866462721826}
+--- !u!114 &338393343162250048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934ad2df8a321d641b666fa3af3af234, type: 3}
+  m_Name: PlaySequenceTree
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a87421cee1af45b459331fdf5e8aeaf6
+  position: {x: 611.3334, y: 301.3333}
+  description: 
+  treeToPlay: {fileID: 0}
+--- !u!114 &633118089017065529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072ece06a65ce10469d602f86bc77430, type: 3}
+  m_Name: AvatarLookAtCameraNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 72c07fe41c4804b498e0c4dc8ac17127
+  position: {x: 124, y: 448.72003}
+  description: 
+  avatarName: 
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &1311615878823354145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ffdef99d33c08499d81d576f44a6fd, type: 3}
+  m_Name: AvatarLookAtUserNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ddd2f0c654c51c6448e0df1d0ad0d8aa
+  position: {x: 0, y: 0}
+  description: 
+  avatarName: 
+  lookAtAvatarName: 
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &6048501086501391899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835c59687e678b149bf9fd788a5c8c9d, type: 3}
+  m_Name: ProgramSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 064f49c29bd0a064891c9e4eb90fe0e8
+  position: {x: 0, y: 0}
+  description: 
+--- !u!114 &6417694904888478337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc16b42e9c8e2ee4099da70998adf723, type: 3}
+  m_Name: AvatarSpeakNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 098b0cddf83afde4db89acf7a41cd9d4
+  position: {x: 810.00006, y: 61.999985}
+  description: 
+  avatarName: 
+  audioClip: {fileID: 0}
+  waitToFinish: 1
+--- !u!114 &7047319866462721826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835c59687e678b149bf9fd788a5c8c9d, type: 3}
+  m_Name: ProgramSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1f65949b1590ea9498456240b7213928
+  position: {x: 470, y: 448.66666}
+  description: 
+--- !u!114 &8216400403068858415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ffdef99d33c08499d81d576f44a6fd, type: 3}
+  m_Name: AvatarLookAtUserNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1375ee6505a6d704fae52ad5a9395632
+  position: {x: -59.333374, y: -80.66667}
+  description: 
+  avatarName: 
+  lookAtAvatarName: 
+  offset: {x: 0, y: 0, z: 0}
