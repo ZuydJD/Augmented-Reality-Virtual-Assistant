@@ -15,7 +15,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: c326fdbbbabe5764fa1cb3ac0b1cbdd1
-  position: {x: 152.50003, y: 834.5521}
+  position: {x: 133.99994, y: 961.9601}
   description: 
   avatarName: Chris
   offset: {x: 0, y: 0, z: 0}
@@ -34,9 +34,9 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 110a7d8dfceebdd4e960d9d4e8444577
-  position: {x: 258.55368, y: 532.99994}
+  position: {x: 256.00003, y: 533}
   description: 
-  child: {fileID: -122113569351083424}
+  child: {fileID: 8632579149648673651}
   stateToCheck: 1
   boolean: 0
   positive: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 23175a23f19ad6548a99e37f3f7a55e2
-  position: {x: 768, y: 835}
+  position: {x: 749, y: 961.9601}
   description: 
   avatarName: Chris
   tekst: Ja, het werkt
@@ -93,7 +93,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: db81534ee37d7284193996871c4190f2
-  position: {x: 933.5501, y: 835.0001}
+  position: {x: 914.9999, y: 961.9601}
   description: 
   duration: 0.5
 --- !u!114 &-122113569351083424
@@ -111,7 +111,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 6533bc0afd902864cac62ff8e37ba241
-  position: {x: 275.00003, y: 672.9999}
+  position: {x: 255.99995, y: 799.9601}
   description: 
   children:
   - {fileID: -7572076204105471893}
@@ -146,6 +146,7 @@ MonoBehaviour:
   - {fileID: 663910499638534651}
   - {fileID: -4785810228370970095}
   - {fileID: -446828202551896214}
+  - {fileID: 8632579149648673651}
 --- !u!114 &663910499638534651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +162,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: de00a2057b9c38948a3087036f4c858e
-  position: {x: 603, y: 835}
+  position: {x: 583.99994, y: 961.9601}
   description: 
   duration: 0.5
 --- !u!114 &1483596964838242149
@@ -179,7 +180,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 2c2d3576568839e4b90eef5f19950791
-  position: {x: 425, y: 835}
+  position: {x: 406, y: 961.9601}
   description: 
   avatarName: Chris
   tekst: "H\xE9 Marcel"
@@ -262,3 +263,22 @@ MonoBehaviour:
   description: 
   child: {fileID: 4562111806210568315}
   repeatState: 0
+--- !u!114 &8632579149648673651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc416a2b2fcdd394baea29c7f1f62d01, type: 3}
+  m_Name: OnlyPlay_N_Node
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3626901e2f31a414b842e22f07ce6ee5
+  position: {x: 256.00003, y: 673}
+  description: 
+  child: {fileID: -122113569351083424}
+  MaxTimesPlayed: 2

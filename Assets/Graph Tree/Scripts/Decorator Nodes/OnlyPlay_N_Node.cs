@@ -1,25 +1,26 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnlyPlayOnceNode : DecoratorNode
+public class OnlyPlay_N_Node : DecoratorNode
 {
-    bool HasPlayed = false;
+    public int MaxTimesPlayed = 1;
+
+    int TimesHasPlayed = 0;
     protected override void OnStart()
     {
-        
+
     }
 
     protected override void OnStop()
     {
-        HasPlayed = true;
+        TimesHasPlayed++;
     }
 
     protected override State OnUpdate()
     {
-        
-        if (HasPlayed == false)
+
+        if (TimesHasPlayed < MaxTimesPlayed)
         {
             State childState = child.Update();
             return childState;
@@ -27,6 +28,4 @@ public class OnlyPlayOnceNode : DecoratorNode
 
         return State.Success;
     }
-
-    
 }
